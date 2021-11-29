@@ -1,0 +1,7 @@
+= form_with model: [@article, @comment] do |f|
+    .comment
+        = f.label :content, 'Comment'
+        = f.text_area :content
+    %br
+    %br
+    = f.submit

@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+}
