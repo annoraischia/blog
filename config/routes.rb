@@ -4,6 +4,9 @@ Rails.application.routes.draw do
 resources :articles do
   resources :comments
 end
+resources :categories do
+  resources :articles
+end
 end
 
   # get '/articles' => 'articles#index'
